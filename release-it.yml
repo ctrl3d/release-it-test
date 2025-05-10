@@ -11,7 +11,7 @@ npm: false
 hooks:
   after:bump: "npx auto-changelog -p"
 
-# plugins:
-#   "@release-it/conventional-changelog":
-#     preset: angular
-#     infile: CHANGELOG.md
+plugins:
+  "@release-it/conventional-changelog":
+  preset: angular
+  infile: CHANGELOG.md
